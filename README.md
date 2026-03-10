@@ -13,21 +13,21 @@ The cluster used in this lab consists of:
 
 
 # Architecture
-
+```
 Ansible Control Node (node1)
-
+│
 Ansible Playbook
-
+│
 Client Server
-
+│
 Docker Compose
-
+│
 ├── wordpress
-
+│
 ├── mysql
-
+│
 └── nginx
-
+```
 
 # Prerequisites
 
