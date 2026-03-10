@@ -1,0 +1,20 @@
+---
+- name: Deploy WordPress Container
+  hosts: prod
+  become: true
+
+  vars:
+    system_user: admin
+    compose_project_dir: /home/{{ system_user }}/compose-wordpress
+    domain: foolcontrol.org
+    stage: staging
+    wp_version: 5.2.4
+    wp_db_user: admin
+    wp_db_psw: change-M3
+    db_root_psw: change-M3
+    wp_db_name: wordpress
+    wp_db_tb_pre: wp_
+    wp_db_host: mysql
+
+  roles:
+    - ansible-role-containerized-wordpress
