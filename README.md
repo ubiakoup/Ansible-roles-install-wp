@@ -11,22 +11,23 @@ The cluster used in this lab consists of:
 * **1 Ansible control node (node1)** – the machine that runs Ansible
 * **1 client node** – the target server where WordPress is deployed
 
----
 
 # Architecture
 
 Ansible Control Node (node1)
-⬇
+
 Ansible Playbook
-⬇
+
 Client Server
-⬇
+
 Docker Compose
+
 ├── wordpress
+
 ├── mysql
+
 └── nginx
 
----
 
 # Prerequisites
 
