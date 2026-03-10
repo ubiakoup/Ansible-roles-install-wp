@@ -1,4 +1,4 @@
-# WordPress Deployment with Ansible role and Docker
+# WordPress Deployment with Ansible-roles and Docker
 
 ## Objective of the Lab
 
